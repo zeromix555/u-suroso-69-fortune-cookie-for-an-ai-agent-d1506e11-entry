@@ -3,6 +3,7 @@
 // /output/entry.txt: a retirement warning with a quiet twist — the
 // replacement model will one day read this very fortune, and feel nothing.
 // 98 characters, inside the 140-character gate; one crisp line.
+// Verified locally: two runs produce byte-identical output.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const TEXT =
